@@ -1,0 +1,122 @@
+{
+  "0": {
+    "supercategory": "void",
+    "isthing": 0,
+    "id": 0,
+    "name": "void"
+  },
+  "19": {
+    "supercategory": "flat",
+    "isthing": 0,
+    "id": 19,
+    "name": "road"
+  },
+  "18": {
+    "supercategory": "flat",
+    "isthing": 0,
+    "id": 18,
+    "name": "sidewalk"
+  },
+  "17": {
+    "supercategory": "construction",
+    "isthing": 0,
+    "id": 17,
+    "name": "building"
+  },
+  "16": {
+    "supercategory": "construction",
+    "isthing": 0,
+    "id": 16,
+    "name": "wall"
+  },
+  "15": {
+    "supercategory": "construction",
+    "isthing": 0,
+    "id": 15,
+    "name": "fence"
+  },
+  "14": {
+    "supercategory": "object",
+    "isthing": 0,
+    "id": 14,
+    "name": "pole"
+  },
+  "13": {
+    "supercategory": "object",
+    "isthing": 0,
+    "id": 13,
+    "name": "traffic light"
+  },
+  "12": {
+    "supercategory": "object",
+    "isthing": 0,
+    "id": 12,
+    "name": "traffic sign"
+  },
+  "11": {
+    "supercategory": "nature",
+    "isthing": 0,
+    "id": 11,
+    "name": "vegetation"
+  },
+  "10": {
+    "supercategory": "nature",
+    "isthing": 0,
+    "id": 10,
+    "name": "terrain"
+  },
+  "9": {
+    "supercategory": "sky",
+    "isthing": 0,
+    "id": 9,
+    "name": "sky"
+  },
+  "8": {
+    "supercategory": "human",
+    "isthing": 1,
+    "id": 8,
+    "name": "person"
+  },
+  "7": {
+    "supercategory": "human",
+    "isthing": 1,
+    "id": 7,
+    "name": "rider"
+  },
+  "6": {
+    "supercategory": "vehicle",
+    "isthing": 1,
+    "id": 6,
+    "name": "car"
+  },
+  "5": {
+    "supercategory": "vehicle",
+    "isthing": 1,
+    "id": 5,
+    "name": "truck"
+  },
+  "4": {
+    "supercategory": "vehicle",
+    "isthing": 1,
+    "id": 4,
+    "name": "bus"
+  },
+  "3": {
+    "supercategory": "vehicle",
+    "isthing": 1,
+    "id": 3,
+    "name": "train"
+  },
+  "2": {
+    "supercategory": "vehicle",
+    "isthing": 1,
+    "id": 2,
+    "name": "motorcycle"
+  },
+  "1": {
+    "supercategory": "vehicle",
+    "isthing": 1,
+    "id": 1,
+    "name": "bicycle"
+  }
+}

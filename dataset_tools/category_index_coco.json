@@ -1,0 +1,800 @@
+{
+  "1": {
+    "supercategory": "person",
+    "isthing": 1,
+    "id": 1,
+    "name": "person"
+  },
+  "2": {
+    "supercategory": "vehicle",
+    "isthing": 1,
+    "id": 2,
+    "name": "bicycle"
+  },
+  "3": {
+    "supercategory": "vehicle",
+    "isthing": 1,
+    "id": 3,
+    "name": "car"
+  },
+  "4": {
+    "supercategory": "vehicle",
+    "isthing": 1,
+    "id": 4,
+    "name": "motorcycle"
+  },
+  "5": {
+    "supercategory": "vehicle",
+    "isthing": 1,
+    "id": 5,
+    "name": "airplane"
+  },
+  "6": {
+    "supercategory": "vehicle",
+    "isthing": 1,
+    "id": 6,
+    "name": "bus"
+  },
+  "7": {
+    "supercategory": "vehicle",
+    "isthing": 1,
+    "id": 7,
+    "name": "train"
+  },
+  "8": {
+    "supercategory": "vehicle",
+    "isthing": 1,
+    "id": 8,
+    "name": "truck"
+  },
+  "9": {
+    "supercategory": "vehicle",
+    "isthing": 1,
+    "id": 9,
+    "name": "boat"
+  },
+  "10": {
+    "supercategory": "outdoor",
+    "isthing": 1,
+    "id": 10,
+    "name": "traffic light"
+  },
+  "11": {
+    "supercategory": "outdoor",
+    "isthing": 1,
+    "id": 11,
+    "name": "fire hydrant"
+  },
+  "13": {
+    "supercategory": "outdoor",
+    "isthing": 1,
+    "id": 13,
+    "name": "stop sign"
+  },
+  "14": {
+    "supercategory": "outdoor",
+    "isthing": 1,
+    "id": 14,
+    "name": "parking meter"
+  },
+  "15": {
+    "supercategory": "outdoor",
+    "isthing": 1,
+    "id": 15,
+    "name": "bench"
+  },
+  "16": {
+    "supercategory": "animal",
+    "isthing": 1,
+    "id": 16,
+    "name": "bird"
+  },
+  "17": {
+    "supercategory": "animal",
+    "isthing": 1,
+    "id": 17,
+    "name": "cat"
+  },
+  "18": {
+    "supercategory": "animal",
+    "isthing": 1,
+    "id": 18,
+    "name": "dog"
+  },
+  "19": {
+    "supercategory": "animal",
+    "isthing": 1,
+    "id": 19,
+    "name": "horse"
+  },
+  "20": {
+    "supercategory": "animal",
+    "isthing": 1,
+    "id": 20,
+    "name": "sheep"
+  },
+  "21": {
+    "supercategory": "animal",
+    "isthing": 1,
+    "id": 21,
+    "name": "cow"
+  },
+  "22": {
+    "supercategory": "animal",
+    "isthing": 1,
+    "id": 22,
+    "name": "elephant"
+  },
+  "23": {
+    "supercategory": "animal",
+    "isthing": 1,
+    "id": 23,
+    "name": "bear"
+  },
+  "24": {
+    "supercategory": "animal",
+    "isthing": 1,
+    "id": 24,
+    "name": "zebra"
+  },
+  "25": {
+    "supercategory": "animal",
+    "isthing": 1,
+    "id": 25,
+    "name": "giraffe"
+  },
+  "27": {
+    "supercategory": "accessory",
+    "isthing": 1,
+    "id": 27,
+    "name": "backpack"
+  },
+  "28": {
+    "supercategory": "accessory",
+    "isthing": 1,
+    "id": 28,
+    "name": "umbrella"
+  },
+  "31": {
+    "supercategory": "accessory",
+    "isthing": 1,
+    "id": 31,
+    "name": "handbag"
+  },
+  "32": {
+    "supercategory": "accessory",
+    "isthing": 1,
+    "id": 32,
+    "name": "tie"
+  },
+  "33": {
+    "supercategory": "accessory",
+    "isthing": 1,
+    "id": 33,
+    "name": "suitcase"
+  },
+  "34": {
+    "supercategory": "sports",
+    "isthing": 1,
+    "id": 34,
+    "name": "frisbee"
+  },
+  "35": {
+    "supercategory": "sports",
+    "isthing": 1,
+    "id": 35,
+    "name": "skis"
+  },
+  "36": {
+    "supercategory": "sports",
+    "isthing": 1,
+    "id": 36,
+    "name": "snowboard"
+  },
+  "37": {
+    "supercategory": "sports",
+    "isthing": 1,
+    "id": 37,
+    "name": "sports ball"
+  },
+  "38": {
+    "supercategory": "sports",
+    "isthing": 1,
+    "id": 38,
+    "name": "kite"
+  },
+  "39": {
+    "supercategory": "sports",
+    "isthing": 1,
+    "id": 39,
+    "name": "baseball bat"
+  },
+  "40": {
+    "supercategory": "sports",
+    "isthing": 1,
+    "id": 40,
+    "name": "baseball glove"
+  },
+  "41": {
+    "supercategory": "sports",
+    "isthing": 1,
+    "id": 41,
+    "name": "skateboard"
+  },
+  "42": {
+    "supercategory": "sports",
+    "isthing": 1,
+    "id": 42,
+    "name": "surfboard"
+  },
+  "43": {
+    "supercategory": "sports",
+    "isthing": 1,
+    "id": 43,
+    "name": "tennis racket"
+  },
+  "44": {
+    "supercategory": "kitchen",
+    "isthing": 1,
+    "id": 44,
+    "name": "bottle"
+  },
+  "46": {
+    "supercategory": "kitchen",
+    "isthing": 1,
+    "id": 46,
+    "name": "wine glass"
+  },
+  "47": {
+    "supercategory": "kitchen",
+    "isthing": 1,
+    "id": 47,
+    "name": "cup"
+  },
+  "48": {
+    "supercategory": "kitchen",
+    "isthing": 1,
+    "id": 48,
+    "name": "fork"
+  },
+  "49": {
+    "supercategory": "kitchen",
+    "isthing": 1,
+    "id": 49,
+    "name": "knife"
+  },
+  "50": {
+    "supercategory": "kitchen",
+    "isthing": 1,
+    "id": 50,
+    "name": "spoon"
+  },
+  "51": {
+    "supercategory": "kitchen",
+    "isthing": 1,
+    "id": 51,
+    "name": "bowl"
+  },
+  "52": {
+    "supercategory": "food",
+    "isthing": 1,
+    "id": 52,
+    "name": "banana"
+  },
+  "53": {
+    "supercategory": "food",
+    "isthing": 1,
+    "id": 53,
+    "name": "apple"
+  },
+  "54": {
+    "supercategory": "food",
+    "isthing": 1,
+    "id": 54,
+    "name": "sandwich"
+  },
+  "55": {
+    "supercategory": "food",
+    "isthing": 1,
+    "id": 55,
+    "name": "orange"
+  },
+  "56": {
+    "supercategory": "food",
+    "isthing": 1,
+    "id": 56,
+    "name": "broccoli"
+  },
+  "57": {
+    "supercategory": "food",
+    "isthing": 1,
+    "id": 57,
+    "name": "carrot"
+  },
+  "58": {
+    "supercategory": "food",
+    "isthing": 1,
+    "id": 58,
+    "name": "hot dog"
+  },
+  "59": {
+    "supercategory": "food",
+    "isthing": 1,
+    "id": 59,
+    "name": "pizza"
+  },
+  "60": {
+    "supercategory": "food",
+    "isthing": 1,
+    "id": 60,
+    "name": "donut"
+  },
+  "61": {
+    "supercategory": "food",
+    "isthing": 1,
+    "id": 61,
+    "name": "cake"
+  },
+  "62": {
+    "supercategory": "furniture",
+    "isthing": 1,
+    "id": 62,
+    "name": "chair"
+  },
+  "63": {
+    "supercategory": "furniture",
+    "isthing": 1,
+    "id": 63,
+    "name": "couch"
+  },
+  "64": {
+    "supercategory": "furniture",
+    "isthing": 1,
+    "id": 64,
+    "name": "potted plant"
+  },
+  "65": {
+    "supercategory": "furniture",
+    "isthing": 1,
+    "id": 65,
+    "name": "bed"
+  },
+  "67": {
+    "supercategory": "furniture",
+    "isthing": 1,
+    "id": 67,
+    "name": "dining table"
+  },
+  "70": {
+    "supercategory": "furniture",
+    "isthing": 1,
+    "id": 70,
+    "name": "toilet"
+  },
+  "72": {
+    "supercategory": "electronic",
+    "isthing": 1,
+    "id": 72,
+    "name": "tv"
+  },
+  "73": {
+    "supercategory": "electronic",
+    "isthing": 1,
+    "id": 73,
+    "name": "laptop"
+  },
+  "74": {
+    "supercategory": "electronic",
+    "isthing": 1,
+    "id": 74,
+    "name": "mouse"
+  },
+  "75": {
+    "supercategory": "electronic",
+    "isthing": 1,
+    "id": 75,
+    "name": "remote"
+  },
+  "76": {
+    "supercategory": "electronic",
+    "isthing": 1,
+    "id": 76,
+    "name": "keyboard"
+  },
+  "77": {
+    "supercategory": "electronic",
+    "isthing": 1,
+    "id": 77,
+    "name": "cell phone"
+  },
+  "78": {
+    "supercategory": "appliance",
+    "isthing": 1,
+    "id": 78,
+    "name": "microwave"
+  },
+  "79": {
+    "supercategory": "appliance",
+    "isthing": 1,
+    "id": 79,
+    "name": "oven"
+  },
+  "80": {
+    "supercategory": "appliance",
+    "isthing": 1,
+    "id": 80,
+    "name": "toaster"
+  },
+  "81": {
+    "supercategory": "appliance",
+    "isthing": 1,
+    "id": 81,
+    "name": "sink"
+  },
+  "82": {
+    "supercategory": "appliance",
+    "isthing": 1,
+    "id": 82,
+    "name": "refrigerator"
+  },
+  "84": {
+    "supercategory": "indoor",
+    "isthing": 1,
+    "id": 84,
+    "name": "book"
+  },
+  "85": {
+    "supercategory": "indoor",
+    "isthing": 1,
+    "id": 85,
+    "name": "clock"
+  },
+  "86": {
+    "supercategory": "indoor",
+    "isthing": 1,
+    "id": 86,
+    "name": "vase"
+  },
+  "87": {
+    "supercategory": "indoor",
+    "isthing": 1,
+    "id": 87,
+    "name": "scissors"
+  },
+  "88": {
+    "supercategory": "indoor",
+    "isthing": 1,
+    "id": 88,
+    "name": "teddy bear"
+  },
+  "89": {
+    "supercategory": "indoor",
+    "isthing": 1,
+    "id": 89,
+    "name": "hair drier"
+  },
+  "90": {
+    "supercategory": "indoor",
+    "isthing": 1,
+    "id": 90,
+    "name": "toothbrush"
+  },
+  "92": {
+    "supercategory": "textile",
+    "isthing": 0,
+    "id": 92,
+    "name": "banner"
+  },
+  "93": {
+    "supercategory": "textile",
+    "isthing": 0,
+    "id": 93,
+    "name": "blanket"
+  },
+  "95": {
+    "supercategory": "building",
+    "isthing": 0,
+    "id": 95,
+    "name": "bridge"
+  },
+  "100": {
+    "supercategory": "raw-material",
+    "isthing": 0,
+    "id": 100,
+    "name": "cardboard"
+  },
+  "107": {
+    "supercategory": "furniture-stuff",
+    "isthing": 0,
+    "id": 107,
+    "name": "counter"
+  },
+  "109": {
+    "supercategory": "textile",
+    "isthing": 0,
+    "id": 109,
+    "name": "curtain"
+  },
+  "112": {
+    "supercategory": "furniture-stuff",
+    "isthing": 0,
+    "id": 112,
+    "name": "door-stuff"
+  },
+  "118": {
+    "supercategory": "floor",
+    "isthing": 0,
+    "id": 118,
+    "name": "floor-wood"
+  },
+  "119": {
+    "supercategory": "plant",
+    "isthing": 0,
+    "id": 119,
+    "name": "flower"
+  },
+  "122": {
+    "supercategory": "food-stuff",
+    "isthing": 0,
+    "id": 122,
+    "name": "fruit"
+  },
+  "125": {
+    "supercategory": "ground",
+    "isthing": 0,
+    "id": 125,
+    "name": "gravel"
+  },
+  "128": {
+    "supercategory": "building",
+    "isthing": 0,
+    "id": 128,
+    "name": "house"
+  },
+  "130": {
+    "supercategory": "furniture-stuff",
+    "isthing": 0,
+    "id": 130,
+    "name": "light"
+  },
+  "133": {
+    "supercategory": "furniture-stuff",
+    "isthing": 0,
+    "id": 133,
+    "name": "mirror-stuff"
+  },
+  "138": {
+    "supercategory": "structural",
+    "isthing": 0,
+    "id": 138,
+    "name": "net"
+  },
+  "141": {
+    "supercategory": "textile",
+    "isthing": 0,
+    "id": 141,
+    "name": "pillow"
+  },
+  "144": {
+    "supercategory": "ground",
+    "isthing": 0,
+    "id": 144,
+    "name": "platform"
+  },
+  "145": {
+    "supercategory": "ground",
+    "isthing": 0,
+    "id": 145,
+    "name": "playingfield"
+  },
+  "147": {
+    "supercategory": "ground",
+    "isthing": 0,
+    "id": 147,
+    "name": "railroad"
+  },
+  "148": {
+    "supercategory": "water",
+    "isthing": 0,
+    "id": 148,
+    "name": "river"
+  },
+  "149": {
+    "supercategory": "ground",
+    "isthing": 0,
+    "id": 149,
+    "name": "road"
+  },
+  "151": {
+    "supercategory": "building",
+    "isthing": 0,
+    "id": 151,
+    "name": "roof"
+  },
+  "154": {
+    "supercategory": "ground",
+    "isthing": 0,
+    "id": 154,
+    "name": "sand"
+  },
+  "155": {
+    "supercategory": "water",
+    "isthing": 0,
+    "id": 155,
+    "name": "sea"
+  },
+  "156": {
+    "supercategory": "furniture-stuff",
+    "isthing": 0,
+    "id": 156,
+    "name": "shelf"
+  },
+  "159": {
+    "supercategory": "ground",
+    "isthing": 0,
+    "id": 159,
+    "name": "snow"
+  },
+  "161": {
+    "supercategory": "furniture-stuff",
+    "isthing": 0,
+    "id": 161,
+    "name": "stairs"
+  },
+  "166": {
+    "supercategory": "building",
+    "isthing": 0,
+    "id": 166,
+    "name": "tent"
+  },
+  "168": {
+    "supercategory": "textile",
+    "isthing": 0,
+    "id": 168,
+    "name": "towel"
+  },
+  "171": {
+    "supercategory": "wall",
+    "isthing": 0,
+    "id": 171,
+    "name": "wall-brick"
+  },
+  "175": {
+    "supercategory": "wall",
+    "isthing": 0,
+    "id": 175,
+    "name": "wall-stone"
+  },
+  "176": {
+    "supercategory": "wall",
+    "isthing": 0,
+    "id": 176,
+    "name": "wall-tile"
+  },
+  "177": {
+    "supercategory": "wall",
+    "isthing": 0,
+    "id": 177,
+    "name": "wall-wood"
+  },
+  "178": {
+    "supercategory": "water",
+    "isthing": 0,
+    "id": 178,
+    "name": "water-other"
+  },
+  "180": {
+    "supercategory": "window",
+    "isthing": 0,
+    "id": 180,
+    "name": "window-blind"
+  },
+  "181": {
+    "supercategory": "window",
+    "isthing": 0,
+    "id": 181,
+    "name": "window-other"
+  },
+  "184": {
+    "supercategory": "plant",
+    "isthing": 0,
+    "id": 184,
+    "name": "tree-merged"
+  },
+  "185": {
+    "supercategory": "structural",
+    "isthing": 0,
+    "id": 185,
+    "name": "fence-merged"
+  },
+  "186": {
+    "supercategory": "ceiling",
+    "isthing": 0,
+    "id": 186,
+    "name": "ceiling-merged"
+  },
+  "187": {
+    "supercategory": "sky",
+    "isthing": 0,
+    "id": 187,
+    "name": "sky-other-merged"
+  },
+  "188": {
+    "supercategory": "furniture-stuff",
+    "isthing": 0,
+    "id": 188,
+    "name": "cabinet-merged"
+  },
+  "189": {
+    "supercategory": "furniture-stuff",
+    "isthing": 0,
+    "id": 189,
+    "name": "table-merged"
+  },
+  "190": {
+    "supercategory": "floor",
+    "isthing": 0,
+    "id": 190,
+    "name": "floor-other-merged"
+  },
+  "191": {
+    "supercategory": "ground",
+    "isthing": 0,
+    "id": 191,
+    "name": "pavement-merged"
+  },
+  "192": {
+    "supercategory": "solid",
+    "isthing": 0,
+    "id": 192,
+    "name": "mountain-merged"
+  },
+  "193": {
+    "supercategory": "plant",
+    "isthing": 0,
+    "id": 193,
+    "name": "grass-merged"
+  },
+  "194": {
+    "supercategory": "ground",
+    "isthing": 0,
+    "id": 194,
+    "name": "dirt-merged"
+  },
+  "195": {
+    "supercategory": "raw-material",
+    "isthing": 0,
+    "id": 195,
+    "name": "paper-merged"
+  },
+  "196": {
+    "supercategory": "food-stuff",
+    "isthing": 0,
+    "id": 196,
+    "name": "food-other-merged"
+  },
+  "197": {
+    "supercategory": "building",
+    "isthing": 0,
+    "id": 197,
+    "name": "building-other-merged"
+  },
+  "198": {
+    "supercategory": "solid",
+    "isthing": 0,
+    "id": 198,
+    "name": "rock-merged"
+  },
+  "199": {
+    "supercategory": "wall",
+    "isthing": 0,
+    "id": 199,
+    "name": "wall-other-merged"
+  },
+  "200": {
+    "supercategory": "textile",
+    "isthing": 0,
+    "id": 200,
+    "name": "rug-merged"
+  }
+}

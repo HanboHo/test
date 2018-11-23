@@ -1,0 +1,122 @@
+[
+  {
+    "supercategory": "void",
+    "isthing": 0,
+    "id": 0,
+    "name": "void"
+  },
+  {
+    "supercategory": "flat",
+    "isthing": 0,
+    "id": 19,
+    "name": "road"
+  },
+  {
+    "supercategory": "flat",
+    "isthing": 0,
+    "id": 18,
+    "name": "sidewalk"
+  },
+  {
+    "supercategory": "construction",
+    "isthing": 0,
+    "id": 17,
+    "name": "building"
+  },
+  {
+    "supercategory": "construction",
+    "isthing": 0,
+    "id": 16,
+    "name": "wall"
+  },
+  {
+    "supercategory": "construction",
+    "isthing": 0,
+    "id": 15,
+    "name": "fence"
+  },
+  {
+    "supercategory": "object",
+    "isthing": 0,
+    "id": 14,
+    "name": "pole"
+  },
+  {
+    "supercategory": "object",
+    "isthing": 0,
+    "id": 13,
+    "name": "traffic light"
+  },
+  {
+    "supercategory": "object",
+    "isthing": 0,
+    "id": 12,
+    "name": "traffic sign"
+  },
+  {
+    "supercategory": "nature",
+    "isthing": 0,
+    "id": 11,
+    "name": "vegetation"
+  },
+  {
+    "supercategory": "nature",
+    "isthing": 0,
+    "id": 10,
+    "name": "terrain"
+  },
+  {
+    "supercategory": "sky",
+    "isthing": 0,
+    "id": 9,
+    "name": "sky"
+  },
+  {
+    "supercategory": "human",
+    "isthing": 1,
+    "id": 8,
+    "name": "person"
+  },
+  {
+    "supercategory": "human",
+    "isthing": 1,
+    "id": 7,
+    "name": "rider"
+  },
+  {
+    "supercategory": "vehicle",
+    "isthing": 1,
+    "id": 6,
+    "name": "car"
+  },
+  {
+    "supercategory": "vehicle",
+    "isthing": 1,
+    "id": 5,
+    "name": "truck"
+  },
+  {
+    "supercategory": "vehicle",
+    "isthing": 1,
+    "id": 4,
+    "name": "bus"
+  },
+  {
+    "supercategory": "vehicle",
+    "isthing": 1,
+    "id": 3,
+    "name": "train"
+  },
+  {
+    "supercategory": "vehicle",
+    "isthing": 1,
+    "id": 2,
+    "name": "motorcycle"
+  },
+  {
+    "supercategory": "vehicle",
+    "isthing": 1,
+    "id": 1,
+    "name": "bicycle"
+  }
+]
