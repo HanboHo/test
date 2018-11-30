@@ -1,0 +1,271 @@
+# Options/constants for the module.
+# ==============================================================================
+import tensorflow as tf
+
+""" MixPrecision """
+fp_dtype = tf.float32
+
+
+class Options:
+    """ Options for the module."""
+
+    """ Flag for ASPP layer. """
+    ASPP = True
+
+    """ Flag for semantic segmentation"""
+    semantic_segmentation = True
+
+    """ 'panoptic' to trigger panoptic structure. (will be changed) """
+    network_type = 'panoptic'
+
+    """ Local flags for debugging. """
+    gt_bb = False
+    gt_bb_full_mask = True  # depends on matched object
+    gt_bb_cropped_mask = False
+    predictions = True
+    rpn_proposals = False
+    rpn_proposals_per_layer_loss = False
+    # The following 6 should show the same pairwise results.
+    proposals_gt = False
+    proposals_pre_mining = False
+    proposals_post_mining = False
+    pre_box_classifier_minibatch_gt = False
+    pre_box_classifier_pre_minibatch_proposals = False
+    pre_box_classifier_post_minibatch_proposals = True
+    pre_box_classifier_post_minibatch_proposals_50 = False
+    pre_box_classifier_post_minibatch_positive_proposals = True
+    masks_gt = True
+    masks_prediction = True
+    masks_prediction_full = False
+
+    """ object_index needed for visualization. """
+    object_index = {0: {'name': "None"}, 1: {'name': "Object"}}
+
+    """ category_index needed for visualization. """
+    category_index_coco_full = dict()
+    category_index_coco_full[1] = {'name': "person"}
+    category_index_coco_full[2] = {'name': "bicycle"}
+    category_index_coco_full[3] = {'name': "car"}
+    category_index_coco_full[4] = {'name': "motorcycle"}
+    category_index_coco_full[5] = {'name': "airplane"}
+    category_index_coco_full[6] = {'name': "bus"}
+    category_index_coco_full[7] = {'name': "train"}
+    category_index_coco_full[8] = {'name': "truck"}
+    category_index_coco_full[9] = {'name': "boat"}
+    category_index_coco_full[10] = {'name': "traffic light"}
+    category_index_coco_full[11] = {'name': "fire hydrant"}
+    category_index_coco_full[13] = {'name': "stop sign"}
+    category_index_coco_full[14] = {'name': "parking meter"}
+    category_index_coco_full[15] = {'name': "bench"}
+    category_index_coco_full[16] = {'name': "bird"}
+    category_index_coco_full[17] = {'name': "cat"}
+    category_index_coco_full[18] = {'name': "dog"}
+    category_index_coco_full[19] = {'name': "horse"}
+    category_index_coco_full[20] = {'name': "sheep"}
+    category_index_coco_full[21] = {'name': "cow"}
+    category_index_coco_full[22] = {'name': "elephant"}
+    category_index_coco_full[23] = {'name': "bear"}
+    category_index_coco_full[24] = {'name': "zebra"}
+    category_index_coco_full[25] = {'name': "giraffe"}
+    category_index_coco_full[27] = {'name': "backpack"}
+    category_index_coco_full[28] = {'name': "umbrella"}
+    category_index_coco_full[31] = {'name': "handbag"}
+    category_index_coco_full[32] = {'name': "tie"}
+    category_index_coco_full[33] = {'name': "suitcase"}
+    category_index_coco_full[34] = {'name': "frisbee"}
+    category_index_coco_full[35] = {'name': "skis"}
+    category_index_coco_full[36] = {'name': "snowboard"}
+    category_index_coco_full[37] = {'name': "sports ball"}
+    category_index_coco_full[38] = {'name': "kite"}
+    category_index_coco_full[39] = {'name': "baseball bat"}
+    category_index_coco_full[40] = {'name': "baseball glove"}
+    category_index_coco_full[41] = {'name': "skateboard"}
+    category_index_coco_full[42] = {'name': "surfboard"}
+    category_index_coco_full[43] = {'name': "tennis racket"}
+    category_index_coco_full[44] = {'name': "bottle"}
+    category_index_coco_full[46] = {'name': "wine glass"}
+    category_index_coco_full[47] = {'name': "cup"}
+    category_index_coco_full[48] = {'name': "fork"}
+    category_index_coco_full[49] = {'name': "knife"}
+    category_index_coco_full[50] = {'name': "spoon"}
+    category_index_coco_full[51] = {'name': "bowl"}
+    category_index_coco_full[52] = {'name': "banana"}
+    category_index_coco_full[53] = {'name': "apple"}
+    category_index_coco_full[54] = {'name': "sandwich"}
+    category_index_coco_full[55] = {'name': "orange"}
+    category_index_coco_full[56] = {'name': "broccoli"}
+    category_index_coco_full[57] = {'name': "carrot"}
+    category_index_coco_full[58] = {'name': "hot dog"}
+    category_index_coco_full[59] = {'name': "pizza"}
+    category_index_coco_full[60] = {'name': "donut"}
+    category_index_coco_full[61] = {'name': "cake"}
+    category_index_coco_full[62] = {'name': "chair"}
+    category_index_coco_full[63] = {'name': "couch"}
+    category_index_coco_full[64] = {'name': "potted plant"}
+    category_index_coco_full[65] = {'name': "bed"}
+    category_index_coco_full[67] = {'name': "dining table"}
+    category_index_coco_full[70] = {'name': "toilet"}
+    category_index_coco_full[72] = {'name': "tv"}
+    category_index_coco_full[73] = {'name': "laptop"}
+    category_index_coco_full[74] = {'name': "mouse"}
+    category_index_coco_full[75] = {'name': "remote"}
+    category_index_coco_full[76] = {'name': "keyboard"}
+    category_index_coco_full[77] = {'name': "cell phone"}
+    category_index_coco_full[78] = {'name': "microwave"}
+    category_index_coco_full[79] = {'name': "oven"}
+    category_index_coco_full[80] = {'name': "toaster"}
+    category_index_coco_full[81] = {'name': "sink"}
+    category_index_coco_full[82] = {'name': "refrigerator"}
+    category_index_coco_full[84] = {'name': "book"}
+    category_index_coco_full[85] = {'name': "clock"}
+    category_index_coco_full[86] = {'name': "vase"}
+    category_index_coco_full[87] = {'name': "scissors"}
+    category_index_coco_full[88] = {'name': "teddy bear"}
+    category_index_coco_full[89] = {'name': "hair drier"}
+    category_index_coco_full[90] = {'name': "toothbrush"}
+    category_index_coco_full[91] = {'name': "N/A last"}
+
+    category_index_coco_reduced = dict()
+    category_index_coco_reduced[1] = {'name': "person"}
+    category_index_coco_reduced[2] = {'name': "bicycle"}
+    category_index_coco_reduced[3] = {'name': "car"}
+    category_index_coco_reduced[4] = {'name': "motorcycle"}
+    category_index_coco_reduced[5] = {'name': "airplane"}
+    category_index_coco_reduced[6] = {'name': "bus"}
+    category_index_coco_reduced[7] = {'name': "train"}
+    category_index_coco_reduced[8] = {'name': "truck"}
+    category_index_coco_reduced[9] = {'name': "boat"}
+    category_index_coco_reduced[10] = {'name': "traffic light"}
+    category_index_coco_reduced[11] = {'name': "fire hydrant"}
+    category_index_coco_reduced[12] = {'name': "stop sign"}
+    category_index_coco_reduced[13] = {'name': "parking meter"}
+    category_index_coco_reduced[14] = {'name': "bench"}
+    category_index_coco_reduced[15] = {'name': "bird"}
+    category_index_coco_reduced[16] = {'name': "cat"}
+    category_index_coco_reduced[17] = {'name': "dog"}
+    category_index_coco_reduced[18] = {'name': "horse"}
+    category_index_coco_reduced[19] = {'name': "sheep"}
+    category_index_coco_reduced[20] = {'name': "cow"}
+    category_index_coco_reduced[21] = {'name': "elephant"}
+    category_index_coco_reduced[22] = {'name': "bear"}
+    category_index_coco_reduced[23] = {'name': "zebra"}
+    category_index_coco_reduced[24] = {'name': "giraffe"}
+    category_index_coco_reduced[25] = {'name': "backpack"}
+    category_index_coco_reduced[26] = {'name': "umbrella"}
+    category_index_coco_reduced[27] = {'name': "handbag"}
+    category_index_coco_reduced[28] = {'name': "tie"}
+    category_index_coco_reduced[29] = {'name': "suitcase"}
+    category_index_coco_reduced[30] = {'name': "frisbee"}
+    category_index_coco_reduced[31] = {'name': "skis"}
+    category_index_coco_reduced[32] = {'name': "snowboard"}
+    category_index_coco_reduced[33] = {'name': "sports ball"}
+    category_index_coco_reduced[34] = {'name': "kite"}
+    category_index_coco_reduced[35] = {'name': "baseball bat"}
+    category_index_coco_reduced[36] = {'name': "baseball glove"}
+    category_index_coco_reduced[37] = {'name': "skateboard"}
+    category_index_coco_reduced[38] = {'name': "surfboard"}
+    category_index_coco_reduced[39] = {'name': "tennis racket"}
+    category_index_coco_reduced[40] = {'name': "bottle"}
+    category_index_coco_reduced[41] = {'name': "wine glass"}
+    category_index_coco_reduced[42] = {'name': "cup"}
+    category_index_coco_reduced[43] = {'name': "fork"}
+    category_index_coco_reduced[44] = {'name': "knife"}
+    category_index_coco_reduced[45] = {'name': "spoon"}
+    category_index_coco_reduced[46] = {'name': "bowl"}
+    category_index_coco_reduced[47] = {'name': "banana"}
+    category_index_coco_reduced[48] = {'name': "apple"}
+    category_index_coco_reduced[49] = {'name': "sandwich"}
+    category_index_coco_reduced[50] = {'name': "orange"}
+    category_index_coco_reduced[51] = {'name': "broccoli"}
+    category_index_coco_reduced[52] = {'name': "carrot"}
+    category_index_coco_reduced[53] = {'name': "hot dog"}
+    category_index_coco_reduced[54] = {'name': "pizza"}
+    category_index_coco_reduced[55] = {'name': "donut"}
+    category_index_coco_reduced[56] = {'name': "cake"}
+    category_index_coco_reduced[57] = {'name': "chair"}
+    category_index_coco_reduced[58] = {'name': "couch"}
+    category_index_coco_reduced[59] = {'name': "potted plant"}
+    category_index_coco_reduced[60] = {'name': "bed"}
+    category_index_coco_reduced[61] = {'name': "dining table"}
+    category_index_coco_reduced[62] = {'name': "toilet"}
+    category_index_coco_reduced[63] = {'name': "tv"}
+    category_index_coco_reduced[64] = {'name': "laptop"}
+    category_index_coco_reduced[65] = {'name': "mouse"}
+    category_index_coco_reduced[66] = {'name': "remote"}
+    category_index_coco_reduced[67] = {'name': "keyboard"}
+    category_index_coco_reduced[68] = {'name': "cell phone"}
+    category_index_coco_reduced[69] = {'name': "microwave"}
+    category_index_coco_reduced[70] = {'name': "oven"}
+    category_index_coco_reduced[71] = {'name': "toaster"}
+    category_index_coco_reduced[72] = {'name': "sink"}
+    category_index_coco_reduced[73] = {'name': "refrigerator"}
+    category_index_coco_reduced[74] = {'name': "book"}
+    category_index_coco_reduced[75] = {'name': "clock"}
+    category_index_coco_reduced[76] = {'name': "vase"}
+    category_index_coco_reduced[77] = {'name': "scissors"}
+    category_index_coco_reduced[78] = {'name': "teddy bear"}
+    category_index_coco_reduced[79] = {'name': "hair drier"}
+    category_index_coco_reduced[80] = {'name': "toothbrush"}
+    category_index_coco_reduced[81] = {'name': "N/A last"}
+
+    category_index_mapillary = dict()
+    category_index_mapillary[1] = {'name': "Bird"}
+    category_index_mapillary[2] = {'name': "Ground Animal"}
+    category_index_mapillary[3] = {'name': "Crosswalk - Plain"}
+    category_index_mapillary[4] = {'name': "Person"}
+    category_index_mapillary[5] = {'name': "Bicyclist"}
+    category_index_mapillary[6] = {'name': "Motorcyclist"}
+    category_index_mapillary[7] = {'name': "Other Rider"}
+    category_index_mapillary[8] = {'name': "Lane Marking - Crosswalk"}
+    category_index_mapillary[9] = {'name': "Banner"}
+    category_index_mapillary[10] = {'name': "Bench"}
+    category_index_mapillary[11] = {'name': "Bike Rack"}
+    category_index_mapillary[12] = {'name': "Billboard"}
+    category_index_mapillary[13] = {'name': "Catch Basin"}
+    category_index_mapillary[14] = {'name': "CCTV Camera"}
+    category_index_mapillary[15] = {'name': "Fire Hydrant"}
+    category_index_mapillary[16] = {'name': "Junction Box"}
+    category_index_mapillary[17] = {'name': "Mailbox"}
+    category_index_mapillary[18] = {'name': "Manhole"}
+    category_index_mapillary[19] = {'name': "Phone Booth"}
+    category_index_mapillary[20] = {'name': "Street Light"}
+    category_index_mapillary[21] = {'name': "Pole"}
+    category_index_mapillary[22] = {'name': "Traffic Sign Frame"}
+    category_index_mapillary[23] = {'name': "Utility Pole"}
+    category_index_mapillary[24] = {'name': "Traffic Light"}
+    category_index_mapillary[25] = {'name': "Traffic Sign (Back)"}
+    category_index_mapillary[26] = {'name': "Traffic Sign (Front)"}
+    category_index_mapillary[27] = {'name': "Trash Can"}
+    category_index_mapillary[28] = {'name': "Bicycle"}
+    category_index_mapillary[29] = {'name': "Boat"}
+    category_index_mapillary[30] = {'name': "Bus"}
+    category_index_mapillary[31] = {'name': "Car"}
+    category_index_mapillary[32] = {'name': "Caravan"}
+    category_index_mapillary[33] = {'name': "Motorcycle"}
+    category_index_mapillary[34] = {'name': "Other Vehicle"}
+    category_index_mapillary[35] = {'name': "Trailer"}
+    category_index_mapillary[36] = {'name': "Truck"}
+    category_index_mapillary[37] = {'name': "Wheeled Slow"}
+    category_index_mapillary[38] = {'name': "N/A Last"}
+
+    category_index_cityscapes = dict()
+    category_index_cityscapes[1] = {'name': "bicycle"}
+    category_index_cityscapes[2] = {'name': "motorcycle"}
+    category_index_cityscapes[3] = {'name': "train"}
+    category_index_cityscapes[4] = {'name': "bus"}
+    category_index_cityscapes[5] = {'name': "truck"}
+    category_index_cityscapes[6] = {'name': "car"}
+    category_index_cityscapes[7] = {'name': "rider"}
+    category_index_cityscapes[8] = {'name': "person"}
+    category_index_cityscapes[9] = {'name': "sky"}
+    category_index_cityscapes[10] = {'name': "terrain"}
+    category_index_cityscapes[11] = {'name': "vegetation"}
+    category_index_cityscapes[12] = {'name': "traffic sign"}
+    category_index_cityscapes[13] = {'name': "traffic light"}
+    category_index_cityscapes[14] = {'name': "pole"}
+    category_index_cityscapes[15] = {'name': "fence"}
+    category_index_cityscapes[16] = {'name': "wall"}
+    category_index_cityscapes[17] = {'name': "building"}
+    category_index_cityscapes[18] = {'name': "sidewalk"}
+    category_index_cityscapes[19] = {'name': "road"}
+
